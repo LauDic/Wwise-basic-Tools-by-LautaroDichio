@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1990B9E0-E9C1-43D8-A2E4-769B5EB82793}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{FD9EF6FA-0E1D-4B7F-834A-D313BF84CF22}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{1990B9E0-E9C1-43D8-A2E4-769B5EB82793}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FD9EF6FA-0E1D-4B7F-834A-D313BF84CF22}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="DevMixer" ID="{A92CC134-6038-450A-88AD-298D483EA814}" ShortID="216945539"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

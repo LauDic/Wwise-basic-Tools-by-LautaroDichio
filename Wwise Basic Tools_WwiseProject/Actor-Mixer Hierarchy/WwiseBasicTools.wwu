@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}" SchemaVersion="110" RootDocumentID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}" ParentDocumentID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}">
+	<AudioObjects>
+		<WorkUnit Name="WwiseBasicTools" ID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}" OwnerID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Sound 1" ID="{21B935A2-6B41-42E2-9E48-D5E614A058A5}" ShortID="817844341">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Others" ID="{E7B19158-FA9C-4095-85B2-B8BF0F91F34C}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="DiamondCollected_01-001" ID="{04855E8E-9A54-477D-8B49-79D394DEC6C7}" ShortID="733317681">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Others" ID="{E7B19158-FA9C-4095-85B2-B8BF0F91F34C}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DiamondCollected_01-001" ID="{BC0DC2AF-F2AA-4908-BF07-EF9974FCDE06}">
+									<Language>SFX</Language>
+									<AudioFile>DiamondCollected_01-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="146143139"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DiamondCollected_01-001" ID="{BC0DC2AF-F2AA-4908-BF07-EF9974FCDE06}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DiamondCollected_02-001" ID="{0E0564E0-2F02-40D5-A9D0-0BC25DCAF388}" ShortID="14169501">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Others" ID="{E7B19158-FA9C-4095-85B2-B8BF0F91F34C}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DiamondCollected_02-001" ID="{F116456B-B986-4496-9A33-88D57FB45042}">
+									<Language>SFX</Language>
+									<AudioFile>DiamondCollected_02-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="154029182"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DiamondCollected_02-001" ID="{F116456B-B986-4496-9A33-88D57FB45042}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DiamondCollected_03-001" ID="{B9325AB4-46F7-451C-9491-6F4CA5EB8004}" ShortID="284315022">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Others" ID="{E7B19158-FA9C-4095-85B2-B8BF0F91F34C}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DiamondCollected_03-001" ID="{65DDCF29-CEBD-4CE7-9B03-A6989BBA79C5}">
+									<Language>SFX</Language>
+									<AudioFile>DiamondCollected_03-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="697640293"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DiamondCollected_03-001" ID="{65DDCF29-CEBD-4CE7-9B03-A6989BBA79C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DiamondCollected_04" ID="{EE0C87DA-403C-4534-A656-93FF6610084F}" ShortID="495749005">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Others" ID="{E7B19158-FA9C-4095-85B2-B8BF0F91F34C}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DiamondCollected_04" ID="{F09E30D0-08F3-48CF-A6AD-02915DA1A5B2}">
+									<Language>SFX</Language>
+									<AudioFile>DiamondCollected_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="379767452"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DiamondCollected_04" ID="{F09E30D0-08F3-48CF-A6AD-02915DA1A5B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="DiamondCollected_01-001" ID="{04855E8E-9A54-477D-8B49-79D394DEC6C7}"/>
+						<ItemRef Name="DiamondCollected_02-001" ID="{0E0564E0-2F02-40D5-A9D0-0BC25DCAF388}"/>
+						<ItemRef Name="DiamondCollected_03-001" ID="{B9325AB4-46F7-451C-9491-6F4CA5EB8004}"/>
+						<ItemRef Name="DiamondCollected_04" ID="{EE0C87DA-403C-4534-A656-93FF6610084F}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Sound Name="Sound 2" ID="{C9891E77-B80A-43EC-9C00-D1A38E4FCF67}" ShortID="958883713">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Others" ID="{E7B19158-FA9C-4095-85B2-B8BF0F91F34C}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MUI DENY SMALL Glassy Terminal" ID="{D4CD350E-71AA-4BD0-BAE2-B93DBFCD3DAF}">
+							<Language>SFX</Language>
+							<AudioFile>MUI DENY SMALL Glassy Terminal.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="806956735"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MUI DENY SMALL Glassy Terminal" ID="{D4CD350E-71AA-4BD0-BAE2-B93DBFCD3DAF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Sound 3" ID="{79A77388-144E-4901-89BA-8384D9BDC588}" ShortID="506538368">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Others" ID="{E7B19158-FA9C-4095-85B2-B8BF0F91F34C}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MUI POP UP Glassy Stutter" ID="{4D8EA323-0902-49A3-AE1F-1B6601607E07}">
+							<Language>SFX</Language>
+							<AudioFile>MUI POP UP Glassy Stutter.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="143445311"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MUI POP UP Glassy Stutter" ID="{4D8EA323-0902-49A3-AE1F-1B6601607E07}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

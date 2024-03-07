@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B1C3AD41-545F-F299-3B05-FD34D67EC48B}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="29600586" Name="RevAux"/>
+				<Bus Id="1069431850" Name="Player"/>
+				<Bus Id="1229948536" Name="Environment"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="2782633896" Name="MainMix"/>
+				<Bus Id="2804736953" Name="PassThrough"/>
+				<Bus Id="3042021448" Name="Others"/>
+				<Bus Id="3149422595" Name="AudioObjects"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1126787298" Name="Layer_05"/>
+						<State Id="1126787299" Name="Layer_04"/>
+						<State Id="1126787300" Name="Layer_03"/>
+						<State Id="1126787301" Name="Layer_02"/>
+						<State Id="1126787302" Name="Layer_01"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="354267144" Name="Terrain">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2348606633" Name="Dust"/>
+						<Switch Id="2473969246" Name="Metal"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3200950630" Type="User" Language="SFX" Hash="{10BC8FA0-C0FA-9B55-29EB-99A60B9A0D91}">
+			<ShortName>SoundBank_01</ShortName>
+			<Path>SoundBank_01.bnk</Path>
+			<Media>
+				<File Id="32589022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>samba_layer05.wav</ShortName>
+					<CachePath>SFX/samba_layer05_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="35185499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_High_02.wav</ShortName>
+					<CachePath>SFX/impact_Wood_High_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="36496588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_Medium_03.wav</ShortName>
+					<CachePath>SFX/impact_Wood_Medium_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="56936902" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_low_01.wav</ShortName>
+					<CachePath>SFX/impact_Wood_low_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="61067857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_Medium_04.wav</ShortName>
+					<CachePath>SFX/impact_Wood_Medium_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="70880717" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Impact_Water_03.wav</ShortName>
+					<CachePath>SFX/Ball_Impact_Water_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="82023005" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>samba_layer02.wav</ShortName>
+					<CachePath>SFX/samba_layer02_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="101444187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>samba_layer01.wav</ShortName>
+					<CachePath>SFX/samba_layer01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="143445311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUI POP UP Glassy Stutter.wav</ShortName>
+					<CachePath>SFX/MUI POP UP Glassy Stutter_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="146143139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DiamondCollected_01-001.wav</ShortName>
+					<CachePath>SFX/DiamondCollected_01-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="147717342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Metal_High_03.wav</ShortName>
+					<CachePath>SFX/impact_Metal_High_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="154029182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DiamondCollected_02-001.wav</ShortName>
+					<CachePath>SFX/DiamondCollected_02-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="171367228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>609539__klankbeeld__cold-city-night-nl-1028pm-210130_0230.wav</ShortName>
+					<CachePath>SFX/609539__klankbeeld__cold-city-night-nl-1028pm-210130_0230_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="180824468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh,Sound Design,Power Down,Groan,Choppy,Very High.wav</ShortName>
+					<CachePath>SFX/Whoosh,Sound Design,Power Down,Groan,Choppy,Very High_10C4C929.wem</CachePath>
+				</File>
+				<File Id="186281069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_low_04.wav</ShortName>
+					<CachePath>SFX/impact_Wood_low_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="231629247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Impact_Water_01.wav</ShortName>
+					<CachePath>SFX/Ball_Impact_Water_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="249747320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_Medium_01.wav</ShortName>
+					<CachePath>SFX/impact_Wood_Medium_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="272385783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 06_344 Audio_Cymbals From Hell Vol 3.wav</ShortName>
+					<CachePath>SFX/BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 06_344 Audio_Cymbals From Hell Vol 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="277789413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>473765__kriptonauta001__20ventisca (1).wav</ShortName>
+					<CachePath>SFX/473765__kriptonauta001__20ventisca (1)_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="301814184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Jump_01.wav</ShortName>
+					<CachePath>SFX/Ball_Jump_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="319296557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ball_rolling_wood.wav</ShortName>
+					<CachePath>SFX/ball_rolling_wood_10C4C929.wem</CachePath>
+				</File>
+				<File Id="332662529" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ball_rolling_metal.wav</ShortName>
+					<CachePath>SFX/ball_rolling_metal_10C4C929.wem</CachePath>
+				</File>
+				<File Id="353887100" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Jump_02.wav</ShortName>
+					<CachePath>SFX/Ball_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="361684502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>samba_layer04.wav</ShortName>
+					<CachePath>SFX/samba_layer04_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="362998958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh,Sound Design,Whip By,Airy to Whine,High.wav</ShortName>
+					<CachePath>SFX/Whoosh,Sound Design,Whip By,Airy to Whine,High_10C4C929.wem</CachePath>
+				</File>
+				<File Id="363807346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>samba_layer03.wav</ShortName>
+					<CachePath>SFX/samba_layer03_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="365234541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Impact_Grass_01.wav</ShortName>
+					<CachePath>SFX/Ball_Impact_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="373138027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fast2-001.wav</ShortName>
+					<CachePath>SFX/fast2-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="379767452" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DiamondCollected_04.wav</ShortName>
+					<CachePath>SFX/DiamondCollected_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="393325308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Dash_01.wav</ShortName>
+					<CachePath>SFX/Ball_Dash_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="404801117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Metal_High_04.wav</ShortName>
+					<CachePath>SFX/impact_Metal_High_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="408853476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Impact_Water_02.wav</ShortName>
+					<CachePath>SFX/Ball_Impact_Water_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="490638795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_Medium_02.wav</ShortName>
+					<CachePath>SFX/impact_Wood_Medium_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="493288691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Dash_03.wav</ShortName>
+					<CachePath>SFX/Ball_Dash_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="504108676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_High_04.wav</ShortName>
+					<CachePath>SFX/impact_Wood_High_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="515779766" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 01_344 Audio_Cymbals From Hell Vol 3.wav</ShortName>
+					<CachePath>SFX/BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 01_344 Audio_Cymbals From Hell Vol 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="551302061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_low_02.wav</ShortName>
+					<CachePath>SFX/impact_Wood_low_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="609738985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Impact_Grass_02.wav</ShortName>
+					<CachePath>SFX/Ball_Impact_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="622498647" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Metal_High_01.wav</ShortName>
+					<CachePath>SFX/impact_Metal_High_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="630617598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_High_03.wav</ShortName>
+					<CachePath>SFX/impact_Wood_High_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="640409695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_High_01.wav</ShortName>
+					<CachePath>SFX/impact_Wood_High_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="641457787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Impact_Grass_04.wav</ShortName>
+					<CachePath>SFX/Ball_Impact_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="697640293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DiamondCollected_03-001.wav</ShortName>
+					<CachePath>SFX/DiamondCollected_03-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="725601002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Metal_High_02.wav</ShortName>
+					<CachePath>SFX/impact_Metal_High_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="731848223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Metal_Low_01.wav</ShortName>
+					<CachePath>SFX/impact_Metal_Low_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="734474195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fast3-001.wav</ShortName>
+					<CachePath>SFX/fast3-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="738169303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>430254__natymon__04-viento2.wav</ShortName>
+					<CachePath>SFX/430254__natymon__04-viento2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="738562996" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh,Sound Design,Blast,Watery,Crash.wav</ShortName>
+					<CachePath>SFX/Whoosh,Sound Design,Blast,Watery,Crash_10C4C929.wem</CachePath>
+				</File>
+				<File Id="746813493" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Whoosh,Sound Design,Logo,Airy to Shiver,Uncertain,Low.wav</ShortName>
+					<CachePath>SFX/Whoosh,Sound Design,Logo,Airy to Shiver,Uncertain,Low_10C4C929.wem</CachePath>
+				</File>
+				<File Id="806956735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUI DENY SMALL Glassy Terminal.wav</ShortName>
+					<CachePath>SFX/MUI DENY SMALL Glassy Terminal_10C4C929.wem</CachePath>
+				</File>
+				<File Id="837698714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fast-001.wav</ShortName>
+					<CachePath>SFX/Fast-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="847018561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Dash_02.wav</ShortName>
+					<CachePath>SFX/Ball_Dash_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="898079924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Metal_Low_03.wav</ShortName>
+					<CachePath>SFX/impact_Metal_Low_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="916261633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Wood_low_03.wav</ShortName>
+					<CachePath>SFX/impact_Wood_low_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="947196589" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ball_Impact_Grass_03.wav</ShortName>
+					<CachePath>SFX/Ball_Impact_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014095748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ball_rolling_Grass.wav</ShortName>
+					<CachePath>SFX/ball_rolling_Grass_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1020111781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Metal_Low_04.wav</ShortName>
+					<CachePath>SFX/impact_Metal_Low_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042833212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>impact_Metal_Low_02.wav</ShortName>
+					<CachePath>SFX/impact_Metal_Low_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1051831405" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ball_rolling_dust.wav</ShortName>
+					<CachePath>SFX/ball_rolling_dust_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1060965657" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>364412__jujojito__ventisca.wav</ShortName>
+					<CachePath>SFX/364412__jujojito__ventisca_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1064241159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>463497__kinnikiko__wind.wav</ShortName>
+					<CachePath>SFX/463497__kinnikiko__wind_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="383416985" Name="Wwise Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="319590943" Name="BoxAreaTest_01" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="146143139"/>
+						<MediaRef Id="154029182"/>
+						<MediaRef Id="379767452"/>
+						<MediaRef Id="697640293"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="319590940" Name="BoxAreaTest_02" DurationType="OneShot" DurationMin="0.9833229" DurationMax="0.9833229">
+					<MediaRefs>
+						<MediaRef Id="806956735"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="319590941" Name="BoxAreaTest_03" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="143445311"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="306762689" Name="BoxAreaTest_04_Exit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="143445311"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1126787298" Name="Layer_05"/>
+						<State Id="1126787299" Name="Layer_04"/>
+						<State Id="1126787300" Name="Layer_03"/>
+						<State Id="1126787301" Name="Layer_02"/>
+						<State Id="1126787302" Name="Layer_01"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="354267144" Name="Terrain">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2348606633" Name="Dust"/>
+						<Switch Id="2473969246" Name="Metal"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{116871DC-F43F-BA68-F11F-9723C1F9ABB0}</FileHash>
+</SoundBanksInfo>

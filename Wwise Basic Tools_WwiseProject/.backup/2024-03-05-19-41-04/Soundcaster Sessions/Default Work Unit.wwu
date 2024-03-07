@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4633F69E-B7D1-4043-A9B1-877360C65D7E}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4633F69E-B7D1-4043-A9B1-877360C65D7E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Movement" ID="{BF273D99-0B18-491E-A00A-F3D32592CC74}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ball_Movement" ID="{7BF8ACFE-0F98-4969-89D8-84D4C554CFAD}" WorkUnitID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Finish" ID="{AA2023AC-EEAB-4D8E-BFB3-055E4320C722}" WorkUnitID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{2688B061-A899-4A86-9D7C-4FA7C31BE18E}" WorkUnitID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MusicOff" ID="{9AF797AB-EC1A-478B-BAB5-6F291878778E}" WorkUnitID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="VictoryFlag" ID="{02376BB7-D991-4106-9F01-B61BA3DD170A}"/>
+							<Value>3.97536394176932</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="BallImpactVelocity" ID="{5D0B21FA-0338-4199-A7E1-1840D0D2CE48}"/>
+							<Value>36.6853476750748</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Musica" ID="{D1804BED-90FB-43A0-A400-399655FBBF53}"/>
+							<Value>80</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="New_Game_Parameter" ID="{4BC2DD42-9F80-48AE-93D5-3E1013060D6B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="General" ID="{EDC5A41A-3055-49D7-95D4-CC48F7B12A51}"/>
+							<Value>80</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="BallVelocity" ID="{D14C5279-BE93-4B06-BB54-440828B5DE2D}"/>
+							<Value>18.1902552204176</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="BallVelocityWind" ID="{E8CC13BB-3D17-4BDD-AF44-189F8F2A4F67}"/>
+							<Value>1.18042598701529E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="BallVelocity_01" ID="{E7980908-0A27-4FEA-B30F-A32D2181DF45}"/>
+							<Value>40</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Low" ID="{F0E4B2A1-B15B-45CE-BB39-CA621EE115DC}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dust" ID="{8D8EC680-1D7F-44F1-A729-D855D66CE66F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

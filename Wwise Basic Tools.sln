@@ -7,7 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AK.Wwise.Unity.MonoBehaviou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AK.Wwise.Unity.API", "AK.Wwise.Unity.API.csproj", "{E234EF91-541F-3D6F-8310-DCBCFBD1F41A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meryel.CodeAssist.Editor", "Meryel.CodeAssist.Editor.csproj", "{59358CF3-7D53-B301-1C85-069A14E886A1}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AK.Wwise.Unity.API.Editor", "AK.Wwise.Unity.API.Editor.csproj", "{09767B9A-FC14-5C61-2057-E6EA265BBB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{483EA278-C1C1-DCB3-B54C-96344F182D45}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AK.Wwise.Unity.Timeline", "AK.Wwise.Unity.Timeline.csproj", "{0DB34DB0-88DD-5F36-2D92-D558E9D1F4B6}"
 EndProject
@@ -16,8 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AK.Wwise.Unity.Timeline.Editor", "AK.Wwise.Unity.Timeline.Editor.csproj", "{FAC9090B-3136-2521-A33A-B6DB3DBE82D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ak.Wwise.Api.WAAPI", "Ak.Wwise.Api.WAAPI.csproj", "{6D23B2EB-A870-8BE3-A90B-76BB5E6B5F6C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{483EA278-C1C1-DCB3-B54C-96344F182D45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +39,18 @@ Global
 		{E234EF91-541F-3D6F-8310-DCBCFBD1F41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E234EF91-541F-3D6F-8310-DCBCFBD1F41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E234EF91-541F-3D6F-8310-DCBCFBD1F41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59358CF3-7D53-B301-1C85-069A14E886A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59358CF3-7D53-B301-1C85-069A14E886A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59358CF3-7D53-B301-1C85-069A14E886A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59358CF3-7D53-B301-1C85-069A14E886A1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09767B9A-FC14-5C61-2057-E6EA265BBB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09767B9A-FC14-5C61-2057-E6EA265BBB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09767B9A-FC14-5C61-2057-E6EA265BBB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09767B9A-FC14-5C61-2057-E6EA265BBB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483EA278-C1C1-DCB3-B54C-96344F182D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483EA278-C1C1-DCB3-B54C-96344F182D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483EA278-C1C1-DCB3-B54C-96344F182D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483EA278-C1C1-DCB3-B54C-96344F182D45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0DB34DB0-88DD-5F36-2D92-D558E9D1F4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DB34DB0-88DD-5F36-2D92-D558E9D1F4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DB34DB0-88DD-5F36-2D92-D558E9D1F4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,10 +67,6 @@ Global
 		{6D23B2EB-A870-8BE3-A90B-76BB5E6B5F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D23B2EB-A870-8BE3-A90B-76BB5E6B5F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D23B2EB-A870-8BE3-A90B-76BB5E6B5F6C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{483EA278-C1C1-DCB3-B54C-96344F182D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{483EA278-C1C1-DCB3-B54C-96344F182D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{483EA278-C1C1-DCB3-B54C-96344F182D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{483EA278-C1C1-DCB3-B54C-96344F182D45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

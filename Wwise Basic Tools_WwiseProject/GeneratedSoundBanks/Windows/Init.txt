@@ -1,0 +1,33 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music			
+	1126787298	Layer_05	Music			
+	1126787299	Layer_04	Music			
+	1126787300	Layer_03	Music			
+	1126787301	Layer_02	Music			
+	1126787302	Layer_01	Music			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	29600586	RevAux			\Default Work Unit\Master Audio Bus\RevAux	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\MainMix\Player	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\MainMix\Environment	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\PassThrough\UI	
+	2782633896	MainMix			\Default Work Unit\Master Audio Bus\MainMix	
+	2804736953	PassThrough			\Default Work Unit\Master Audio Bus\PassThrough	
+	3042021448	Others			\Default Work Unit\Master Audio Bus\MainMix\Others	
+	3149422595	AudioObjects			\Default Work Unit\Master Audio Bus\AudioObjects	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\PassThrough\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\RevAux\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

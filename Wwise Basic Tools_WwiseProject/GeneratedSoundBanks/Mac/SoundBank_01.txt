@@ -1,0 +1,93 @@
+Event	ID	Name			Wwise Object Path	Notes
+	306762689	BoxAreaTest_04_Exit			\Default Work Unit\Objects\AKLD_EventBox\BoxAreaTest_04_Exit	
+	319590940	BoxAreaTest_02			\Default Work Unit\Objects\AKLD_EventBox\BoxAreaTest_02	
+	319590941	BoxAreaTest_03			\Default Work Unit\Objects\AKLD_EventBox\BoxAreaTest_03	
+	319590943	BoxAreaTest_01			\Default Work Unit\Objects\AKLD_EventBox\BoxAreaTest_01	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	354267144	Terrain			\Default Work Unit\Terrain	
+
+Switch	ID	Name	Switch Group			Notes
+	2058049674	Wood	Terrain			
+	2348606633	Dust	Terrain			
+	2473969246	Metal	Terrain			
+	2654748154	Water	Terrain			
+	4248645337	Grass	Terrain			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music			
+	1126787298	Layer_05	Music			
+	1126787299	Layer_04	Music			
+	1126787300	Layer_03	Music			
+	1126787301	Layer_02	Music			
+	1126787302	Layer_01	Music			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	383416985	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Fall\New Random Container\New Sound SFX\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	32589022	samba_layer05	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\samba_layer05_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\5\samba_layer05\samba_layer05		1411296
+	35185499	impact_Wood_High_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_High_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\High\impact_Wood_High_02		88296
+	36496588	impact_Wood_Medium_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_Medium_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Medium\impact_Wood_Medium_03		88296
+	56936902	impact_Wood_low_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_low_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Low\impact_Wood_low_01		88296
+	61067857	impact_Wood_Medium_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_Medium_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Medium\impact_Wood_Medium_04		88296
+	70880717	Ball_Impact_Water_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Impact_Water_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Water\Ball_Impact_Water_03		103316
+	82023005	samba_layer02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\samba_layer02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\2\samba_layer02\samba_layer02		1411296
+	101444187	samba_layer01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\samba_layer01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\1\samba_layer01\samba_layer01		1411296
+	143445311	Sound 3	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\MUI POP UP Glassy Stutter_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 3		93660
+	146143139	DiamondCollected_01-001	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\DiamondCollected_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 1\DiamondCollected_01-001		176496
+	147717342	impact_Metal_High_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Metal_High_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\High\impact_Metal_High_03		88296
+	154029182	DiamondCollected_02-001	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\DiamondCollected_02-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 1\DiamondCollected_02-001		176496
+	171367228	609539__klankbeeld__cold-city-night-nl-1028pm-210130_0230	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\609539__klankbeeld__cold-city-night-nl-1028pm-210130_0230_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Fall\609539__klankbeeld__cold-city-night-nl-1028pm-210130_0230		1078720
+	180824468	Whoosh,Sound Design,Power Down,Groan,Choppy,Very High	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Whoosh,Sound Design,Power Down,Groan,Choppy,Very High_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\speed1\Whoosh,Sound Design,Power Down,Groan,Choppy,Very High		304838
+	186281069	impact_Wood_low_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_low_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Low\impact_Wood_low_04		88296
+	231629247	Ball_Impact_Water_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Impact_Water_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Water\Ball_Impact_Water_01		115138
+	249747320	impact_Wood_Medium_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_Medium_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Medium\impact_Wood_Medium_01		88296
+	272385783	BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 06_344 Audio_Cymbals From Hell Vol 3	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 06_344 Audio_Cymbals From Hell Vol 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\Finish\BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 06_344 Audio_Cymbals From Hell Vol 3		10500900
+	277789413	473765__kriptonauta001__20ventisca (1)	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\473765__kriptonauta001__20ventisca (1)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Fall\473765__kriptonauta001__20ventisca (1)		1114480
+	301814184	Ball_Jump_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Jump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Ball_Jump_01		88296
+	319296557	ball_rolling_wood	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\ball_rolling_wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Wood\ball_rolling_wood		837996
+	332662529	ball_rolling_metal	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\ball_rolling_metal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Dust\ball_rolling_metal		8952396
+	353887100	Ball_Jump_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Jump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Ball_Jump_02		88296
+	361684502	samba_layer04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\samba_layer04_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\4\samba_layer04\samba_layer04		1411296
+	362998958	Whoosh,Sound Design,Whip By,Airy to Whine,High	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Whoosh,Sound Design,Whip By,Airy to Whine,High_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\speed4\Whoosh,Sound Design,Whip By,Airy to Whine,High		99074
+	363807346	samba_layer03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\samba_layer03_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\3\samba_layer03\samba_layer03		1411296
+	365234541	Ball_Impact_Grass_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Impact_Grass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Grass\Ball_Impact_Grass_01		67296
+	373138027	fast2-001	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\fast2-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\Speed2\fast2-001		176496
+	379767452	DiamondCollected_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\DiamondCollected_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 1\DiamondCollected_04		176496
+	393325308	Ball_Dash_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Dash_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dash\Ball_Dash_01		176496
+	404801117	impact_Metal_High_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Metal_High_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\High\impact_Metal_High_04		88296
+	408853476	Ball_Impact_Water_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Impact_Water_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Water\Ball_Impact_Water_02		72202
+	490638795	impact_Wood_Medium_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_Medium_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Medium\impact_Wood_Medium_02		88296
+	493288691	Ball_Dash_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Dash_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dash\Ball_Dash_03		1411296
+	504108676	impact_Wood_High_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_High_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\High\impact_Wood_High_04		88296
+	515779766	BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 01_344 Audio_Cymbals From Hell Vol 3	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 01_344 Audio_Cymbals From Hell Vol 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\Finish\BELLMisc_Chimes, Atmos, Dark Magic, Unsetting, Magical 01_344 Audio_Cymbals From Hell Vol 3		3156568
+	551302061	impact_Wood_low_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_low_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Low\impact_Wood_low_02		88296
+	609738985	Ball_Impact_Grass_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Impact_Grass_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Grass\Ball_Impact_Grass_02		76896
+	622498647	impact_Metal_High_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Metal_High_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\High\impact_Metal_High_01		88296
+	630617598	impact_Wood_High_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_High_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\High\impact_Wood_High_03		88296
+	640409695	impact_Wood_High_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_High_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\High\impact_Wood_High_01		88296
+	641457787	Ball_Impact_Grass_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Impact_Grass_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Grass\Ball_Impact_Grass_04		57696
+	697640293	DiamondCollected_03-001	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\DiamondCollected_03-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 1\DiamondCollected_03-001		176496
+	725601002	impact_Metal_High_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Metal_High_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\High\impact_Metal_High_02		88296
+	731848223	impact_Metal_Low_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Metal_Low_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\Low\impact_Metal_Low_01		88296
+	734474195	fast3-001	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\fast3-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\speed1\fast3-001		176496
+	738169303	430254__natymon__04-viento2	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\430254__natymon__04-viento2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Fall\430254__natymon__04-viento2		1220000
+	738562996	Whoosh,Sound Design,Blast,Watery,Crash	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Whoosh,Sound Design,Blast,Watery,Crash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\speed1\Whoosh,Sound Design,Blast,Watery,Crash		167694
+	746813493	Whoosh,Sound Design,Logo,Airy to Shiver,Uncertain,Low	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Whoosh,Sound Design,Logo,Airy to Shiver,Uncertain,Low_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\speed4\Whoosh,Sound Design,Logo,Airy to Shiver,Uncertain,Low		126090
+	806956735	Sound 2	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\MUI DENY SMALL Glassy Terminal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 2		94494
+	837698714	Fast-001	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Fast-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\speed3\Fast-001		176496
+	847018561	Ball_Dash_2	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Dash_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dash\Ball_Dash_2		176496
+	898079924	impact_Metal_Low_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Metal_Low_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\Low\impact_Metal_Low_03		88296
+	916261633	impact_Wood_low_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Wood_low_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Low\impact_Wood_low_03		88296
+	947196589	Ball_Impact_Grass_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\Ball_Impact_Grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Grass\Ball_Impact_Grass_03		57696
+	1014095748	ball_rolling_Grass	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\ball_rolling_Grass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Grass\ball_rolling_Grass		837996
+	1020111781	impact_Metal_Low_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Metal_Low_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\Low\impact_Metal_Low_04		88296
+	1042833212	impact_Metal_Low_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\impact_Metal_Low_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\Low\impact_Metal_Low_02		88296
+	1051831405	ball_rolling_dust	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\ball_rolling_dust_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Metal\ball_rolling_dust		568918
+	1060965657	364412__jujojito__ventisca	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\364412__jujojito__ventisca_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Fall\New Random Container\364412__jujojito__ventisca		617496
+	1064241159	463497__kinnikiko__wind	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Mac\SFX\463497__kinnikiko__wind_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Fall\463497__kinnikiko__wind		3624060
+

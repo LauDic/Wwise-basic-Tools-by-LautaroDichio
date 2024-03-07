@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{63F9B640-97B9-46C3-B3D4-A31A399093D4}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{5D385E10-7F32-4471-BA23-2869466794F1}" SchemaVersion="110">
 	<Busses>
-		<WorkUnit Name="Default Work Unit" ID="{63F9B640-97B9-46C3-B3D4-A31A399093D4}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{5D385E10-7F32-4471-BA23-2869466794F1}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
-							<ObjectRef Name="System" ID="{72ED7909-5A0D-4972-A7D6-97CDE6F98082}" WorkUnitID="{47E32E77-9AC8-4597-8A9D-7EC6F491314D}"/>
+							<ObjectRef Name="System" ID="{2F25E42F-96AD-4126-A51E-B6F7453ACDC5}" WorkUnitID="{13E0D752-5682-447D-BD4F-901D8F7936E8}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MainMix" ID="{AAB11301-E729-40DD-987D-CA424C518550}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3584</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Environment" ID="{2DBB2819-B824-4580-BDE2-AD45EDE81C2D}"/>
+								<Bus Name="Player" ID="{71E60325-3987-4E8C-9237-065A4FFBAC34}"/>
+								<Bus Name="Others" ID="{E7B19158-FA9C-4095-85B2-B8BF0F91F34C}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="RevAux" ID="{A4DCFDE6-D76F-43DB-8D00-A97AAE728450}">
+							<ChildrenList>
+								<AuxBus Name="Reverb" ID="{359E2335-F969-49A3-8BAA-A62459A00733}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="PassThrough" ID="{38B054DE-BD28-49D7-8C73-B736F120B66F}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="UI" ID="{C9651A73-5164-4624-9266-5F966DE464B6}"/>
+								<Bus Name="Music" ID="{38963D84-62EC-464A-AFB4-4C588735E6D3}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="AudioObjects" ID="{533057FF-4D8D-4E6A-A3FB-F3568260E5D3}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>768</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

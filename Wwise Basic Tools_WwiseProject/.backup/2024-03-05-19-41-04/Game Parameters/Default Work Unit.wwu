@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FD9EF6FA-0E1D-4B7F-834A-D313BF84CF22}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{FD9EF6FA-0E1D-4B7F-834A-D313BF84CF22}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="BallVelocity" ID="{D14C5279-BE93-4B06-BB54-440828B5DE2D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="40"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="VictoryFlag" ID="{02376BB7-D991-4106-9F01-B61BA3DD170A}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="BallImpactVelocity" ID="{5D0B21FA-0338-4199-A7E1-1840D0D2CE48}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="11"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="New_Game_Parameter" ID="{4BC2DD42-9F80-48AE-93D5-3E1013060D6B}"/>
+				<GameParameter Name="BallVelocityWind" ID="{E8CC13BB-3D17-4BDD-AF44-189F8F2A4F67}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="3"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="40"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="BallVelocity_01" ID="{E7980908-0A27-4FEA-B30F-A32D2181DF45}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="40"/>
+						<Property Name="Max" Type="Real64" Value="40"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="Potenciometro" ID="{A92CC134-6038-450A-88AD-298D483EA814}" ShortID="216945539">
+					<ChildrenList>
+						<GameParameter Name="Musica" ID="{D1804BED-90FB-43A0-A400-399655FBBF53}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="80"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="General" ID="{EDC5A41A-3055-49D7-95D4-CC48F7B12A51}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="80"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

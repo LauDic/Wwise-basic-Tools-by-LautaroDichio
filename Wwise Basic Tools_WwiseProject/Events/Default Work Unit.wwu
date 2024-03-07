@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{91731D31-0A73-4A91-8419-AB570D2C258A}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{91731D31-0A73-4A91-8419-AB570D2C258A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{C95E9586-DEAD-4FF2-B26B-55C4DB420711}" ShortID="569381186"/>
+				<Folder Name="Player" ID="{F789D4E8-A09E-4090-A0C4-F59DC2678C16}" ShortID="410272854"/>
+				<Folder Name="Objects" ID="{14D3635B-D183-49A1-B2B8-02C1E0A15D76}" ShortID="233909444">
+					<ChildrenList>
+						<Folder Name="AKLD_EventBox" ID="{8697336D-E0A7-4CF0-8542-4B373E97E7A8}" ShortID="835388782">
+							<ChildrenList>
+								<Event Name="BoxAreaTest_01" ID="{5602EFE0-4876-4E93-BD56-0EF4DA06DEB2}">
+									<ChildrenList>
+										<Action Name="" ID="{A1359C1D-A496-45C6-8D3A-8BA710FC8925}" ShortID="668135930">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sound 1" ID="{21B935A2-6B41-42E2-9E48-D5E614A058A5}" WorkUnitID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BoxAreaTest_02" ID="{1B4A6913-2DF7-406A-BFBD-94C2D833704D}">
+									<ChildrenList>
+										<Action Name="" ID="{1058C240-F69E-4CDA-AA75-5B06E25EB341}" ShortID="460248499">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sound 2" ID="{C9891E77-B80A-43EC-9C00-D1A38E4FCF67}" WorkUnitID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BoxAreaTest_03" ID="{C1F8DC99-E3A2-4719-88A7-C8C38A59E53A}">
+									<ChildrenList>
+										<Action Name="" ID="{C1A90E49-3C81-4EC6-B9E5-1744D9394908}" ShortID="685048436">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sound 3" ID="{79A77388-144E-4901-89BA-8384D9BDC588}" WorkUnitID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BoxAreaTest_04_Exit" ID="{697A6A53-6CD7-4F3C-93EA-6A983C6330C0}">
+									<ChildrenList>
+										<Action Name="" ID="{D92A30BA-2A4D-4C6C-AB27-A019205A0F58}" ShortID="504323762">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sound 3" ID="{79A77388-144E-4901-89BA-8384D9BDC588}" WorkUnitID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

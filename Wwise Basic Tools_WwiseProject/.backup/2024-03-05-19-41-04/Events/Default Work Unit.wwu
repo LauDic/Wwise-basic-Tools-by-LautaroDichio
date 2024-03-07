@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ball" ID="{8C5C1E20-77D3-457F-AC46-6A16DB9914B7}" ShortID="202213290">
+					<ChildrenList>
+						<Event Name="Ball_Jump" ID="{80BD566D-2A78-4857-818F-3DC3E65285A9}">
+							<ChildrenList>
+								<Action Name="" ID="{E882B820-C20A-4136-98A1-B4DB8C6A4AF1}" ShortID="126455815">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{07E251AE-241B-4F01-9AB8-7EEA0A39063A}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Movement" ID="{7BF8ACFE-0F98-4969-89D8-84D4C554CFAD}">
+							<ChildrenList>
+								<Action Name="" ID="{19AF7845-D511-44FA-A180-3C386DFF8A6F}" ShortID="772763607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Movement" ID="{BCD85C07-B321-467D-A440-1EBD334026E6}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Water" ID="{E8392179-DD02-4027-9D0D-A239E7769416}">
+							<ChildrenList>
+								<Action Name="" ID="{0AE5FAF5-AAA5-4755-99B2-008E4B427FB6}" ShortID="1010957560">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water" ID="{512BA961-79E0-42FB-8C3D-D39B6169BACC}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Impact" ID="{50315853-DF13-49D0-B2D7-92323295AC71}">
+							<ChildrenList>
+								<Action Name="" ID="{636204B1-B140-48E1-8D70-47DB48CC278F}" ShortID="652736017">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impact" ID="{59657B9B-3C58-4C8E-AEB8-248363764BA0}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Dash" ID="{CB9E5DB9-A092-4267-95AA-973D7317D7B5}">
+							<ChildrenList>
+								<Action Name="" ID="{752A8A04-AC4B-48AD-9E8F-69B266B39F28}" ShortID="499819765">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dash" ID="{07C2CC39-9B5B-45DB-9A55-27DF2D1BD910}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Fall" ID="{763B4D12-BA33-47DD-B7B8-F41AADEA6543}">
+							<ChildrenList>
+								<Action Name="" ID="{D82F0893-025C-4ECD-904A-9818A4091D17}" ShortID="122916982">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fall" ID="{3D46AA51-E75E-4AA7-99C9-D5D3933F3E51}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Impact_01" ID="{B3D2A677-ABA1-41B4-9F32-5F7B7FDD8055}">
+							<ChildrenList>
+								<Action Name="" ID="{1345F842-DC5F-4C11-8B51-F78A1C5BC91D}" ShortID="529268183">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grass" ID="{5D445853-F5F3-4A86-BB2D-12812DC3CC6E}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Diamond" ID="{AAD78601-FCEC-4DDC-AF42-5ADBACF7AF32}" ShortID="93364234">
+					<ChildrenList>
+						<Event Name="Diamond_AimOn" ID="{100149DC-0EF4-4DF3-A728-70ABBAC98321}">
+							<ChildrenList>
+								<Action Name="" ID="{98F01748-127C-4ADF-9851-1470C7676C68}" ShortID="259756983">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DiamondSelected" ID="{79A77388-144E-4901-89BA-8384D9BDC588}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Diamond_Catch" ID="{E079205A-D464-4D67-A413-555124B05F43}">
+							<ChildrenList>
+								<Action Name="" ID="{13A5330B-4B2A-4E69-A4F1-55F9661DCA40}" ShortID="233710601">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DiamondCollected" ID="{21B935A2-6B41-42E2-9E48-D5E614A058A5}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Diamond_AimOff" ID="{D07B56B1-33A0-42CA-8E94-4DBA8B85B6C9}">
+							<ChildrenList>
+								<Action Name="" ID="{1623B17C-EDB8-4A86-A958-2D64F07C6464}" ShortID="472138303">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DiamondSelected" ID="{79A77388-144E-4901-89BA-8384D9BDC588}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B684547E-BD0B-4506-9C1C-C969D1F634CC}" ShortID="892237555">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DiamondDeselected" ID="{C9891E77-B80A-43EC-9C00-D1A38E4FCF67}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Ambience" ID="{522C82B6-BA47-4E06-B75E-6A05004400D3}"/>
+				<Event Name="Music" ID="{2688B061-A899-4A86-9D7C-4FA7C31BE18E}">
+					<ChildrenList>
+						<Action Name="" ID="{9157781A-B609-45AB-8D48-1659223CDC39}" ShortID="189466665">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{7523DB0A-E1F1-4963-B3D8-885F69CFD587}" WorkUnitID="{2A582038-35AF-4F6D-872D-6716DD149A17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Finish" ID="{AA2023AC-EEAB-4D8E-BFB3-055E4320C722}">
+					<ChildrenList>
+						<Action Name="" ID="{FA740F8A-60DC-494B-8500-77236D45183D}" ShortID="292671327">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Finish" ID="{36047FBE-6BCA-4BB8-9D87-B747D0CFD17E}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SpeedTrigger" ID="{16620065-24AD-42FC-A2F5-E21DC000A959}">
+					<ChildrenList>
+						<Action Name="" ID="{99284498-8E3C-4EE7-AACE-9A30978EE776}" ShortID="688176148">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FastLane" ID="{A3ECE227-7C5D-4A5F-B508-8342072C5DE6}" WorkUnitID="{2EBA123F-BAA8-4594-868E-9FFC6059FE91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicOff" ID="{9AF797AB-EC1A-478B-BAB5-6F291878778E}">
+					<ChildrenList>
+						<Action Name="" ID="{6B6DCBDA-5388-4C79-B21B-C1A7DC519E8B}" ShortID="497160254">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{7523DB0A-E1F1-4963-B3D8-885F69CFD587}" WorkUnitID="{2A582038-35AF-4F6D-872D-6716DD149A17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_01" ID="{C9128A6B-6ADF-4627-8B03-93A7EF5C3007}">
+					<ChildrenList>
+						<Action Name="" ID="{5B398012-F50E-41D6-83B7-1426593FF22F}" ShortID="793611767">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_01" ID="{EE577972-94E2-41ED-8CCA-69A04B1209D5}" WorkUnitID="{2A582038-35AF-4F6D-872D-6716DD149A17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

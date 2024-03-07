@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{381A2CD1-D7C6-489B-9A15-7469ACF27367}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{4633F69E-B7D1-4043-A9B1-877360C65D7E}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{381A2CD1-D7C6-489B-9A15-7469ACF27367}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4633F69E-B7D1-4043-A9B1-877360C65D7E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Movement" ID="{BF273D99-0B18-491E-A00A-F3D32592CC74}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Layer_01" ID="{F0E4B2A1-B15B-45CE-BB39-CA621EE115DC}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dust" ID="{8D8EC680-1D7F-44F1-A729-D855D66CE66F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
