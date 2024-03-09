@@ -3,7 +3,21 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{0E5DC53A-B406-4ADA-AEB1-5B61BAED78F7}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Music" ID="{C95E9586-DEAD-4FF2-B26B-55C4DB420711}" ShortID="569381186"/>
+				<Folder Name="Music" ID="{C95E9586-DEAD-4FF2-B26B-55C4DB420711}" ShortID="569381186">
+					<ChildrenList>
+						<Event Name="Play_Music_01" ID="{DBE000B7-2DDD-45B8-99AA-0F3429582332}">
+							<ChildrenList>
+								<Action Name="" ID="{5EA259CD-BC8B-441D-B2CB-24E11B0652DE}" ShortID="380068012">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_01" ID="{EE577972-94E2-41ED-8CCA-69A04B1209D5}" WorkUnitID="{7CE0017D-9E4C-4370-B789-34F02118D721}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Player" ID="{F789D4E8-A09E-4090-A0C4-F59DC2678C16}" ShortID="410272854"/>
 				<Folder Name="Objects" ID="{14D3635B-D183-49A1-B2B8-02C1E0A15D76}" ShortID="233909444">
 					<ChildrenList>
@@ -51,6 +65,32 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Sound 3" ID="{79A77388-144E-4901-89BA-8384D9BDC588}" WorkUnitID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="AKLD_EventMultiBox" ID="{3ACA7DBD-42FD-4F18-AFF6-5A064CE809E5}" ShortID="423396406">
+							<ChildrenList>
+								<Event Name="Play_Sound_4" ID="{50C03A23-0D4B-4D5F-AD81-3D5B53D36293}">
+									<ChildrenList>
+										<Action Name="" ID="{5F55F3E5-CE74-464B-80AE-CBF03F546D4E}" ShortID="90844976">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sound 4" ID="{78506FE6-A7B0-4A61-A082-591ACD52AFFC}" WorkUnitID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Sound_5" ID="{62D5EFB8-DE90-4272-A1E7-617E5B2F23CE}">
+									<ChildrenList>
+										<Action Name="" ID="{20ABD174-DF62-40B2-81A3-BB21A15A7C37}" ShortID="646573183">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sound 5" ID="{6CC84E20-6B4B-4FA0-8844-2EA8C3F6F58C}" WorkUnitID="{750C6A8F-1346-42FC-A0CB-C895AE7186A4}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

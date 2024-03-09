@@ -133,19 +133,19 @@ public class AKLD_EventBox : MonoBehaviour
         }
         else if (!isInside && wasInsideLastFrame)
         {
-            if (onExit)
-            {
-                foreach (var exitEvent in eventsOnExit)
-                {
-                    if (exitEvent != null) EventOnExit(exitEvent);
-                }
-            }
-
             if (stopEventsOnExit && areaActivated)
             {
                 foreach (var enterEvent in enterEvents)
                 {
                     if (enterEvent != null) StopEvent(enterEvent);
+                }
+            }
+
+            if (onExit)
+            {
+                foreach (var exitEvent in eventsOnExit)
+                {
+                    if (exitEvent != null) EventOnExit(exitEvent);
                 }
             }
 

@@ -172,6 +172,50 @@
 						<ActiveSource Name="MUI POP UP Glassy Stutter" ID="{4D8EA323-0902-49A3-AE1F-1B6601607E07}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Sound 5" ID="{6CC84E20-6B4B-4FA0-8844-2EA8C3F6F58C}" ShortID="643519350">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Accent,Interface,UI,Data,Chatter,Clean,Crystal,Low" ID="{40FB210A-E72B-46F6-9B40-0432CEF3AA72}">
+							<Language>SFX</Language>
+							<AudioFile>Accent,Interface,UI,Data,Chatter,Clean,Crystal,Low.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="391880341"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Accent,Interface,UI,Data,Chatter,Clean,Crystal,Low" ID="{40FB210A-E72B-46F6-9B40-0432CEF3AA72}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Sound 4" ID="{78506FE6-A7B0-4A61-A082-591ACD52AFFC}" ShortID="38623776">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD99CEE2-8FD9-4F34-9ECB-C0818A9066C2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5D385E10-7F32-4471-BA23-2869466794F1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Accent,Interface,UI,Alert,Clean,Metallic,Double,Fast" ID="{1A166612-4F4C-4F7C-A01B-C670B8BCEF2F}">
+							<Language>SFX</Language>
+							<AudioFile>Accent,Interface,UI,Alert,Clean,Metallic,Double,Fast.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="836636251"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Accent,Interface,UI,Alert,Clean,Metallic,Double,Fast" ID="{1A166612-4F4C-4F7C-A01B-C670B8BCEF2F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

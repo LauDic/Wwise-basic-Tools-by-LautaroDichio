@@ -28,7 +28,7 @@
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools_WwiseIntegrationTemp\Wwise Basic Tools_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1709674541" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools_WwiseIntegrationTemp\Wwise Basic Tools_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1709674541" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Wwise Basic Tools_WwiseProject.wproj" DateLow="1709674623" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Wwise Basic Tools_WwiseProject.lauta.wsettings" DateLow="1709683469" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Wwise Basic Tools_WwiseProject.lauta.wsettings" DateLow="1709938624" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
@@ -42,11 +42,11 @@
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1709678675" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Interactive Music Hierarchy\WwiseBasicTools.wwu" DateLow="1709678636" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1709678675" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1709762517" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Interactive Music Hierarchy\WwiseBasicTools.wwu" DateLow="1709937285" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1709937285" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1709678675" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Events\Default Work Unit.wwu" DateLow="1709678675" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Events\Default Work Unit.wwu" DateLow="1709938623" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Effects\Factory Effects.wwu" DateLow="1709678464" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1709678465" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
@@ -55,6 +55,6 @@
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1709678464" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Actor-Mixer Hierarchy\WwiseBasicTools.wwu" DateLow="1709678920" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1709683469" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Actor-Mixer Hierarchy\WwiseBasicTools.wwu" DateLow="1709935195" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1709762517" DateHigh="0"/>
 </ValidationCache>

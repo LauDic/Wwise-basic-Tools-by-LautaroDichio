@@ -1,6 +1,5 @@
 // This script defines a simple box-shaped area in the Unity scene. It detects whether a specified object is inside the area
 // and triggers Wwise states accordingly upon entering or exiting the area.
-
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -16,54 +15,69 @@ public class AKLD_StateBox : MonoBehaviour
 
     [Header("Wwise On Enter")]
     public List<AK.Wwise.State> enterState = new List<AK.Wwise.State>();
-    public bool debugOn = false;
-    public string message = "Inside the area";
+    public string enterMessage = "Inside the area";
 
     [Header("On Exit")]
     public bool onExit = false;
     public List<AK.Wwise.State> statesOnExit = new List<AK.Wwise.State>();
+    public string exitMessage = "Outside the area";
 
-    [HideInInspector]
-    public bool areaActivated = false;
+    private bool hasEnteredOnce = false;
+    private bool areaActivated = false;
+    private bool enterStateTriggered = false;
+    private bool exitStateTriggered = false;
 
     private void Update()
     {
         if (objectToCheck == null)
-        {
             return;
-        }
 
-        if (IsInsideArea(objectToCheck.position) && !areaActivated)
+        bool isInside = IsInsideArea(objectToCheck.position);
+
+        if (!isInside || (areaActivated && !hasEnteredOnce))
         {
-            if (debugOn)
-                Debug.Log(message);
-
-            foreach (var enterState in enterState)
+            if (!isInside)
             {
-                if (enterState != null) UpdateState(enterState);
-            }
-            areaActivated = true;
-        }
-        else if (!IsInsideArea(objectToCheck.position))
-        {
-            areaActivated = false;
-
-            if (onExit)
-            {
-                foreach (var exitState in statesOnExit)
+                areaActivated = false;
+                if (onExit && hasEnteredOnce && !exitStateTriggered)
                 {
-                    if (exitState != null) StateOnExit(exitState);
+                    foreach (var exitState in statesOnExit)
+                    {
+                        if (exitState != null)
+                            StateOnExit(exitState);
+                    }
+                    Debug.Log(exitMessage);
+                    exitStateTriggered = true;
                 }
             }
+        }
+        else
+        {
+            if (!areaActivated)
+            {
+                foreach (var enterState in enterState)
+                {
+                    if (enterState != null)
+                        UpdateState(enterState);
+                }
+                Debug.Log(enterMessage);
+                enterStateTriggered = true;
+            }
+            areaActivated = true;
+            hasEnteredOnce = true;
+        }
+
+        // Reset flags when object re-enters the area
+        if (isInside && areaActivated && exitStateTriggered)
+        {
+            enterStateTriggered = false;
+            exitStateTriggered = false;
         }
     }
 
     private bool IsInsideArea(Vector3 position)
     {
-        // Calculate the global center of the area
         Vector3 areaCenter = transform.position + relativeCenter;
-
-        // Calculate the minimum and maximum coordinates of the box
         float minX = areaCenter.x - size.x / 2;
         float maxX = areaCenter.x + size.x / 2;
         float minY = areaCenter.y - size.y / 2;
@@ -71,12 +85,10 @@ public class AKLD_StateBox : MonoBehaviour
         float minZ = areaCenter.z - size.z / 2;
         float maxZ = areaCenter.z + size.z / 2;
 
-        // Check if the given position is inside the box
         return (position.x >= minX && position.x <= maxX &&
                 position.y >= minY && position.y <= maxY &&
                 position.z >= minZ && position.z <= maxZ);
     }
-
 
     private void UpdateState(AK.Wwise.State mystate)
     {
@@ -98,7 +110,6 @@ public class AKLD_StateBoxEditor : Editor
 
     private void OnEnable()
     {
-        // Load the image from resources
         image = Resources.Load<Texture2D>("Titulo script 7");
     }
 
@@ -114,7 +125,6 @@ public class AKLD_StateBoxEditor : Editor
 
     public override void OnInspectorGUI()
     {
-        // Show the image in the Inspector (at the top)
         if (image != null)
         {
             GUILayout.Space(10f);
@@ -126,17 +136,16 @@ public class AKLD_StateBoxEditor : Editor
             EditorGUILayout.HelpBox("Failed to load the image. Make sure it's in the Resources folder.", MessageType.Warning);
         }
 
-        // Show the default fields of the script
         serializedObject.Update();
         EditorGUILayout.PropertyField(serializedObject.FindProperty("objectToCheck"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("relativeCenter"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("size"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("gizmoColor"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("enterState"), true);
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("debugOn"), true);
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("message"), true);
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("enterMessage"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("onExit"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("statesOnExit"), true);
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("exitMessage"), true);
         serializedObject.ApplyModifiedProperties();
     }
 

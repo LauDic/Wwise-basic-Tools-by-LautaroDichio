@@ -17,6 +17,9 @@ namespace AK
         static const AkUniqueID BOXAREATEST_02 = 319590940U;
         static const AkUniqueID BOXAREATEST_03 = 319590941U;
         static const AkUniqueID BOXAREATEST_04_EXIT = 306762689U;
+        static const AkUniqueID PLAY_MUSIC_01 = 3709355747U;
+        static const AkUniqueID PLAY_SOUND_4 = 3038541946U;
+        static const AkUniqueID PLAY_SOUND_5 = 3038541947U;
     } // namespace EVENTS
 
     namespace STATES

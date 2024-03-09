@@ -33,7 +33,8 @@ public class AKLD_StateMultiBox : MonoBehaviour
         // Método de inicialización
         public void Initialize()
         {
-            size = new Vector3(Mathf.Max(size.x, 0.1f), Mathf.Max(size.y, 0.1f), Mathf.Max(size.z, 0.1f));  // Inicializar el tamaño con valores positivos
+            // Inicializar el tamaño con valores mínimos de 1 en cada dimensión
+            size = new Vector3(Mathf.Max(size.x, 1f), Mathf.Max(size.y, 1f), Mathf.Max(size.z, 1f));
         }
     }
 
@@ -109,21 +110,73 @@ public class AKLD_StateMultiBox : MonoBehaviour
     }
 }
 
+
 #if UNITY_EDITOR
-// Editor personalizado para el inspector de Unity
+
 [CustomEditor(typeof(AKLD_StateMultiBox))]
 public class AKLD_StateMultiBoxEditor : Editor
 {
     private Texture2D image;
-    private SerializedProperty m_Script;
+    private SerializedProperty m_Script; // Referencia al campo m_Script
 
     private void OnEnable()
     {
+        // Obtener la referencia al campo m_Script
         m_Script = serializedObject.FindProperty("m_Script");
+
+        // Cargar la imagen desde los recursos
         image = Resources.Load<Texture2D>("Titulo script 7");
+
+        // Crear una caja por defecto si la lista de áreas está vacía
+        if (((AKLD_StateMultiBox)target).areas.Count == 0)
+        {
+            ((AKLD_StateMultiBox)target).areas.Add(new AKLD_StateMultiBox.AreaData());
+        }
     }
 
-    // Dibuja gizmos en la escena del editor
+    public override void OnInspectorGUI()
+    {
+        // Update the serialized object
+        serializedObject.Update();
+
+        // Mostrar la imagen en el Inspector (arriba de todo)
+        if (image != null)
+        {
+            GUILayout.Space(10f);
+            Rect rect = GUILayoutUtility.GetRect(GUIContent.none, GUIStyle.none, GUILayout.Height(image.height));
+            EditorGUI.DrawTextureTransparent(rect, image, ScaleMode.ScaleToFit);
+        }
+        else
+        {
+            EditorGUILayout.HelpBox("No se pudo cargar la imagen. Asegúrate de que está en la carpeta Resources.", MessageType.Warning);
+        }
+
+        // Mostrar propiedades excepto m_Script
+        DrawPropertiesExcluding(serializedObject, "m_Script");
+
+        // Apply changes
+        serializedObject.ApplyModifiedProperties();
+
+        // Botón para inicializar tamaños
+        AKLD_StateMultiBox manager = target as AKLD_StateMultiBox;
+        if (GUILayout.Button("Initialize Sizes") && manager != null)
+        {
+            InitializeSizes(manager);
+        }
+    }
+
+    private void InitializeSizes(AKLD_StateMultiBox manager)
+    {
+        if (manager != null)
+        {
+            foreach (var area in manager.areas)
+            {
+                // Reinicializar tamaño con un mínimo de 1 en cada dimensión
+                area.size = Vector3.one;
+            }
+        }
+    }
+
     private void OnSceneGUI()
     {
         AKLD_StateMultiBox manager = target as AKLD_StateMultiBox;
@@ -137,46 +190,23 @@ public class AKLD_StateMultiBoxEditor : Editor
         }
     }
 
-    // Dibuja el inspector personalizado en el Editor de Unity
-    public override void OnInspectorGUI()
-    {
-        serializedObject.Update();
-
-        // Muestra la imagen en el Inspector (arriba)
-        if (image != null)
-        {
-            GUILayout.Space(10f);
-            Rect rect = GUILayoutUtility.GetRect(GUIContent.none, GUIStyle.none, GUILayout.Height(image.height));
-            EditorGUI.DrawTextureTransparent(rect, image, ScaleMode.ScaleToFit);
-        }
-        else
-        {
-            EditorGUILayout.HelpBox("No se pudo cargar la imagen. Asegúrate de que está en la carpeta Resources.", MessageType.Warning);
-        }
-
-        // Muestra los campos predeterminados del script excepto el campo m_Script
-        DrawPropertiesExcluding(serializedObject, "m_Script");
-
-        serializedObject.ApplyModifiedProperties();
-    }
-
-    // Dibuja el gizmo de la zona en la escena del editor
     private void DrawAreaGizmo(AKLD_StateMultiBox manager, AKLD_StateMultiBox.AreaData area)
     {
+        // Calcular la posición global del área
         Vector3 areaGlobalCenter = manager.transform.position + area.relativeCenter;
-        Vector3 minBound = areaGlobalCenter - area.size * 0.5f;
-        Vector3 maxBound = areaGlobalCenter + area.size * 0.5f;
 
+        // Dibujar un cubo sin relleno para representar el área
         Handles.color = area.gizmoColor;
         Handles.DrawWireCube(areaGlobalCenter, area.size);
 
-        // Dibuja un manipulador de gizmo para mover el área
+        // Permitir que el área se mueva en el editor
         EditorGUI.BeginChangeCheck();
         Vector3 newPosition = Handles.PositionHandle(areaGlobalCenter, Quaternion.identity);
         if (EditorGUI.EndChangeCheck())
         {
-            Undo.RecordObject(manager, "Mover área");
-            area.relativeCenter = newPosition - manager.transform.position;
+            // Registrar el cambio de posición del área
+            Undo.RecordObject(manager, "Move Area");
+            area.relativeCenter += newPosition - areaGlobalCenter;
         }
     }
 }

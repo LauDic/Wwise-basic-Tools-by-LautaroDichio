@@ -66,7 +66,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3200950630" Type="User" Language="SFX" Hash="{10BC8FA0-C0FA-9B55-29EB-99A60B9A0D91}">
+		<SoundBank Id="3200950630" Type="User" Language="SFX" Hash="{7322F9B4-6CD9-4C73-6188-FCE1A3447688}">
 			<ShortName>SoundBank_01</ShortName>
 			<Path>SoundBank_01.bnk</Path>
 			<Media>
@@ -186,6 +186,10 @@
 					<ShortName>DiamondCollected_04.wav</ShortName>
 					<CachePath>SFX/DiamondCollected_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="391880341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Accent,Interface,UI,Data,Chatter,Clean,Crystal,Low.wav</ShortName>
+					<CachePath>SFX/Accent,Interface,UI,Data,Chatter,Clean,Crystal,Low_10C4C929.wem</CachePath>
+				</File>
 				<File Id="393325308" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ball_Dash_01.wav</ShortName>
 					<CachePath>SFX/Ball_Dash_01_10C4C929.wem</CachePath>
@@ -270,6 +274,10 @@
 					<ShortName>MUI DENY SMALL Glassy Terminal.wav</ShortName>
 					<CachePath>SFX/MUI DENY SMALL Glassy Terminal_10C4C929.wem</CachePath>
 				</File>
+				<File Id="836636251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Accent,Interface,UI,Alert,Clean,Metallic,Double,Fast.wav</ShortName>
+					<CachePath>SFX/Accent,Interface,UI,Alert,Clean,Metallic,Double,Fast_10C4C929.wem</CachePath>
+				</File>
 				<File Id="837698714" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fast-001.wav</ShortName>
 					<CachePath>SFX/Fast-001_10C4C929.wem</CachePath>
@@ -344,6 +352,92 @@
 						<MediaRef Id="143445311"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3709355747" Name="Play_Music_01" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787298"/>
+							<MediaRefs>
+								<MediaRef Id="32589022"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787302"/>
+							<MediaRefs>
+								<MediaRef Id="101444187"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787301"/>
+							<MediaRefs>
+								<MediaRef Id="82023005"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787300"/>
+							<MediaRefs>
+								<MediaRef Id="363807346"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787299"/>
+							<MediaRefs>
+								<MediaRef Id="361684502"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="748895195"/>
+							<MediaRefs>
+								<MediaRef Id="101444187"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787298"/>
+							<MediaRefs>
+								<MediaRef Id="32589022"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787302"/>
+							<MediaRefs>
+								<MediaRef Id="101444187"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787301"/>
+							<MediaRefs>
+								<MediaRef Id="82023005"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787300"/>
+							<MediaRefs>
+								<MediaRef Id="363807346"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787299"/>
+							<MediaRefs>
+								<MediaRef Id="361684502"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="748895195"/>
+							<MediaRefs>
+								<MediaRef Id="101444187"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3038541946" Name="Play_Sound_4" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
+					<MediaRefs>
+						<MediaRef Id="836636251"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3038541947" Name="Play_Sound_5" DurationType="OneShot" DurationMin="0.9085625" DurationMax="0.9085625">
+					<MediaRefs>
+						<MediaRef Id="391880341"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<StateGroups>
 				<StateGroup Id="3991942870" Name="Music">
@@ -370,5 +464,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5FDFAFA8-B03C-8A6A-740C-D93D90758A75}</FileHash>
+	<FileHash>{86883CBA-ECB4-D621-B7E2-C2492F699F35}</FileHash>
 </SoundBanksInfo>
