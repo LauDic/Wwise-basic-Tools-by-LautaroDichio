@@ -3,9 +3,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	319590940	BoxAreaTest_02			\Default Work Unit\Objects\AKLD_EventBox\BoxAreaTest_02	
 	319590941	BoxAreaTest_03			\Default Work Unit\Objects\AKLD_EventBox\BoxAreaTest_03	
 	319590943	BoxAreaTest_01			\Default Work Unit\Objects\AKLD_EventBox\BoxAreaTest_01	
+	852013930	Play_Music_RTPCBOX			\Default Work Unit\Music\Play_Music_RTPCBOX	
 	3038541946	Play_Sound_4			\Default Work Unit\Objects\AKLD_EventMultiBox\Play_Sound_4	
 	3038541947	Play_Sound_5			\Default Work Unit\Objects\AKLD_EventMultiBox\Play_Sound_5	
-	3709355747	Play_Music_01			\Default Work Unit\Play_Music_01	
+	3709355747	Play_Music_01			\Default Work Unit\Music\Play_Music_01	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	354267144	Terrain			\Default Work Unit\Terrain	
@@ -28,18 +29,24 @@ State	ID	Name	State Group			Notes
 	1126787301	Layer_02	Music			
 	1126787302	Layer_01	Music			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1370376696	AKLD_RTPCBox			\Default Work Unit\AKLD_RTPCBox	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1431265797	Monsterize	Wwise Pitch Shifter			
+
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	383416985	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Fall\New Random Container\New Sound SFX\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	32589022	samba_layer05	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer05_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_01\5\samba_layer05\samba_layer05		1411296
+	32589022	samba_layer05	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer05_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_STATE\5\samba_layer05\samba_layer05		1411296
 	35185499	impact_Wood_High_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\impact_Wood_High_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\High\impact_Wood_High_02		88296
 	36496588	impact_Wood_Medium_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\impact_Wood_Medium_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Medium\impact_Wood_Medium_03		88296
 	56936902	impact_Wood_low_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\impact_Wood_low_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Low\impact_Wood_low_01		88296
 	61067857	impact_Wood_Medium_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\impact_Wood_Medium_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Wood\Medium\impact_Wood_Medium_04		88296
 	70880717	Ball_Impact_Water_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\Ball_Impact_Water_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Water\Ball_Impact_Water_03		103316
-	82023005	samba_layer02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_01\2\samba_layer02\samba_layer02		1411296
-	101444187	samba_layer01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_01\1\samba_layer01\samba_layer01		1411296
+	82023005	samba_layer02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_STATE\2\samba_layer02\samba_layer02		1411296
+	101444187	samba_layer01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_STATE\1\samba_layer01\samba_layer01		1411296
 	143445311	Sound 3	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\MUI POP UP Glassy Stutter_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 3		93660
 	146143139	DiamondCollected_01-001	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\DiamondCollected_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 1\DiamondCollected_01-001		176496
 	147717342	impact_Metal_High_03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\impact_Metal_High_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Metal\High\impact_Metal_High_03		88296
@@ -55,9 +62,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	319296557	ball_rolling_wood	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\ball_rolling_wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Wood\ball_rolling_wood		837996
 	332662529	ball_rolling_metal	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\ball_rolling_metal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Dust\ball_rolling_metal		8952396
 	353887100	Ball_Jump_02	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\Ball_Jump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Ball_Jump_02		88296
-	361684502	samba_layer04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer04_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_01\4\samba_layer04\samba_layer04		1411296
+	361684502	samba_layer04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer04_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_STATE\4\samba_layer04\samba_layer04		1411296
 	362998958	Whoosh,Sound Design,Whip By,Airy to Whine,High	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\Whoosh,Sound Design,Whip By,Airy to Whine,High_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\speed4\Whoosh,Sound Design,Whip By,Airy to Whine,High		99074
-	363807346	samba_layer03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer03_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_01\3\samba_layer03\samba_layer03		1411296
+	363807346	samba_layer03	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\samba_layer03_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\WwiseBasicTools\Music_STATE\3\samba_layer03\samba_layer03		1411296
 	365234541	Ball_Impact_Grass_01	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\Ball_Impact_Grass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Impact\Grass\Ball_Impact_Grass_01		67296
 	373138027	fast2-001	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\fast2-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Others\FastLane\Speed2\fast2-001		176496
 	379767452	DiamondCollected_04	C:\Proyectos Programas\Unity\WwiseBasicTools\Wwise Basic Tools\Wwise Basic Tools_WwiseProject\.cache\Windows\SFX\DiamondCollected_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseBasicTools\Sound 1\DiamondCollected_04		176496

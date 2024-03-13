@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{FD9EF6FA-0E1D-4B7F-834A-D313BF84CF22}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="DevMixer" ID="{A92CC134-6038-450A-88AD-298D483EA814}" ShortID="216945539"/>
+				<GameParameter Name="AKLD_RTPCBox" ID="{641FC798-EBD8-4CD6-80AF-2D6B31FA9CEB}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

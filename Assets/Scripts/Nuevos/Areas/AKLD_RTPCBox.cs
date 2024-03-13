@@ -111,7 +111,7 @@ public class AKLD_RTPCBox : MonoBehaviour
         else
             myRTPC.SetValue(this.gameObject, valor);
 
-        Debug.Log("EnterPa " + valor + " " + myRTPC);
+        Debug.Log("Enter value " + valor + " " + myRTPC);
     }
 
     private void RTPCExit(AK.Wwise.RTPC myRTPC, float valor, bool global, bool other, GameObject otherGO)
@@ -123,7 +123,7 @@ public class AKLD_RTPCBox : MonoBehaviour
         else
             myRTPC.SetValue(this.gameObject, valor);
 
-        Debug.Log("Exitpa " + valor + " " + myRTPC);
+        Debug.Log("Exit value " + valor + " " + myRTPC);
     }
 
 #if UNITY_EDITOR

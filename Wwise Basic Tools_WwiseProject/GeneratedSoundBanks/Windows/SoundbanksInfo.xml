@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{747615A5-CB69-404F-BEE8-C84EDEEDD297}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B72DCD62-36B3-DA88-D383-318F63BBA6D5}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -42,6 +42,9 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="1370376696" Name="AKLD_RTPCBox"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3991942870" Name="Music">
 					<States>
@@ -66,7 +69,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3200950630" Type="User" Language="SFX" Hash="{7322F9B4-6CD9-4C73-6188-FCE1A3447688}">
+		<SoundBank Id="3200950630" Type="User" Language="SFX" Hash="{C5716272-42C0-6257-4607-3099BC20B7AC}">
 			<ShortName>SoundBank_01</ShortName>
 			<Path>SoundBank_01.bnk</Path>
 			<Media>
@@ -327,6 +330,9 @@
 				<Custom>
 					<Plugin Id="383416985" Name="Wwise Silence" LibName="Wwise Silence" LibId="6619138"/>
 				</Custom>
+				<ShareSets>
+					<Plugin Id="1431265797" Name="Monsterize" LibName="Wwise Pitch Shifter" LibId="8912899"/>
+				</ShareSets>
 			</Plugins>
 			<Events>
 				<Event Id="319590943" Name="BoxAreaTest_01" DurationType="OneShot" DurationMin="1" DurationMax="1">
@@ -428,6 +434,142 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="852013930" Name="Play_Music_RTPCBOX" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787298"/>
+							<MediaRefs>
+								<MediaRef Id="32589022"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787302"/>
+							<MediaRefs>
+								<MediaRef Id="101444187"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787301"/>
+							<MediaRefs>
+								<MediaRef Id="82023005"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787300"/>
+							<MediaRefs>
+								<MediaRef Id="363807346"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787299"/>
+							<MediaRefs>
+								<MediaRef Id="361684502"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="748895195"/>
+							<MediaRefs>
+								<MediaRef Id="101444187"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787298"/>
+							<MediaRefs>
+								<MediaRef Id="32589022"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787302"/>
+							<MediaRefs>
+								<MediaRef Id="101444187"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787301"/>
+							<MediaRefs>
+								<MediaRef Id="82023005"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787300"/>
+							<MediaRefs>
+								<MediaRef Id="363807346"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1126787299"/>
+							<MediaRefs>
+								<MediaRef Id="361684502"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="748895195"/>
+							<MediaRefs>
+								<MediaRef Id="101444187"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1431265797"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3038541946" Name="Play_Sound_4" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
 					<MediaRefs>
 						<MediaRef Id="836636251"/>
@@ -439,6 +581,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1370376696" Name="AKLD_RTPCBox"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3991942870" Name="Music">
 					<States>
@@ -464,5 +609,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{86883CBA-ECB4-D621-B7E2-C2492F699F35}</FileHash>
+	<FileHash>{5DFA7260-71DD-FBE1-673E-88ED3125B8D6}</FileHash>
 </SoundBanksInfo>
